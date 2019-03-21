@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test name="Instagram_demo(failed)">
+    <classes>
+      <class name="Instagram_demo.Instagram_demo.Instagram">
+        <methods>
+          <include name="Quit"/>
+          <include name="beforeTest"/>
+          <include name="TC2"/>
+          <include name="TC1"/>
+        </methods>
+      </class> <!-- Instagram_demo.Instagram_demo.Instagram -->
+    </classes>
+  </test> <!-- Instagram_demo(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Automation]">
+  <test name="Instagram_demo_S6(failed)">
+    <parameter name="appActivity" value="com.instagram.mainactivity.MainActivity"/>
+    <parameter name="appPackage" value="com.instagram.android"/>
+    <parameter name="Accout" value="totrung2018"/>
+    <parameter name="Contents" value="Latest post for function posting an artical........ -auto"/>
+    <parameter name="AccoutFollow" value="trungtohieu1987"/>
+    <parameter name="Pass" value="test123"/>
+    <parameter name="port" value="4726"/>
+    <parameter name="ContentsLike" value="My keyboard"/>
+    <parameter name="id" value="5659440a"/>
+    <parameter name="ImgUrl" value="https://sc.mogicons.com/share/crazy-emoticon-236.jpg"/>
+    <classes>
+      <class name="Instagram_demo.Instagram_demo.Instagram">
+        <methods>
+          <include name="teadDown"/>
+          <include name="TC1_postNews" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Instagram_demo.Instagram_demo.Instagram -->
+    </classes>
+  </test> <!-- Instagram_demo_S6(failed) -->
+</suite> <!-- Failed suite [Automation] -->

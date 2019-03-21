@@ -1,0 +1,42 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Automation" verbose="1" parallel="tests"  thread-count="2" >
+
+ <test name="Instagram_demo_S6"  >
+  	<parameter name="port" value="4726" />
+  	<parameter name="id" value="5659440a" />
+  	<parameter name="appActivity" value="com.instagram.mainactivity.MainActivity" /> 
+  	<parameter name="appPackage" value="com.instagram.android" />
+  	<parameter name="Accout" value="totrung2018" />
+  	<parameter name="Pass" value="test123" />
+  	<parameter name="Contents" value="Latest post for function posting an artical........ -auto" />
+  	<parameter name="AccoutFollow" value="trungtohieu1987" />
+  	<parameter name="ContentsLike" value="My keyboard" />
+  	<parameter name="ImgUrl" value="https://sc.mogicons.com/share/crazy-emoticon-236.jpg" />
+    <classes>
+       <class name="Instagram_demo.Instagram_demo.Instagram" >
+	   </class>
+    </classes>
+  </test>
+   
+   
+  
+<!--   <test name="Instagram_demo_A3"  >
+  	<parameter name="port" value="4725" />
+  	<parameter name="id" value="52035bffe87e73a7" />
+  	<parameter name="appActivity" value="com.instagram.mainactivity.MainActivity" /> 
+  	<parameter name="appPackage" value="com.instagram.android" />
+  	<parameter name="Accout" value="totrung2018" />
+  	<parameter name="Pass" value="test123" />
+  	<parameter name="Contents" value="Latest post for function posting an artical........ -auto" />
+  	<parameter name="AccoutFollow" value="trungtohieu1987" />
+  	<parameter name="ContentsLike" value="My keyboard" />
+  	<parameter name="ImgUrl" value="https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg" />
+    <classes>
+       <class name="Instagram_demo.Instagram_demo.Instagram" >
+	   </class>
+    </classes>
+  </test> -->
+  
+  
+</suite>

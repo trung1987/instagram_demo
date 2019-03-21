@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Automation" verbose="1"  parallel="tests" thread-count="2" >
+
+ <test name="Instagram_demo_S6"  >
+  	<parameter name="port" value="4723" />
+  	<parameter name="id" value="5659440a" />
+  	<parameter name="appActivity" value="com.instagram.mainactivity.MainActivity" />
+  	<parameter name="appPackage" value="com.instagram.android" />
+  	<!-- <parameter name="appName" value="instagram47.apk" />  -->
+  	<parameter name="Accout" value="totrung2018" />
+  	<parameter name="Pass" value="test123" />
+    <classes>
+       <class name="Instagram_demo.Instagram_demo.Instagram" />
+    </classes>
+  </test>
+  
+  <!-- <test name="Instagram_demo_A3"  >
+    <parameter name="port" value="4725" />
+  	<parameter name="id" value="F4AZFG147185" />
+  	<parameter name="appActivity" value="com.instagram.mainactivity.MainActivity" /> 
+  	<parameter name="appPackage" value="com.instagram.android" />
+  	<parameter name="appName" value="instagram47.apk" /> 
+  	<parameter name="Accout" value="totrung2018" />
+  	<parameter name="Pass" value="test123" />
+  	<classes>
+       <class name="Instagram_demo.Instagram_demo.Instagram" />
+    </classes>
+  </test> -->
+  
+</suite>

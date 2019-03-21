@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <parameter name="appPackage" value="com.instagram.android"/>
+  <parameter name="appActivity" value="com.instagram.mainactivity.MainActivity"/>
+  <parameter name="Accout" value="totrung2018"/>
+  <parameter name="Pass" value="test123"/>
+  <parameter name="port" value="4723"/>
+  <parameter name="id" value="5659440a"/>
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Instagram_demo.Instagram_demo.Instagram">
+        <methods>
+          <include name="Quit"/>
+          <include name="beforeTest"/>
+          <include name="TC1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Instagram_demo.Instagram_demo.Instagram -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

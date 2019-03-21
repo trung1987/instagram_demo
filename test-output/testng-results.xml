@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation" duration-ms="444963" started-at="2018-07-02T15:23:51Z" finished-at="2018-07-02T15:31:16Z">
+    <groups>
+    </groups>
+    <test name="Instagram_demo_S6" duration-ms="444963" started-at="2018-07-02T15:23:51Z" finished-at="2018-07-02T15:31:16Z">
+      <class name="Instagram_demo.Instagram_demo.Instagram">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:Instagram_demo.Instagram_demo.Instagram@883ce7]" name="beforeTest" is-config="true" duration-ms="40388" started-at="2018-07-02T22:23:51Z" finished-at="2018-07-02T22:24:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5659440a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://sc.mogicons.com/share/crazy-emoticon-236.jpg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="TC1_postNews(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Instagram_demo.Instagram_demo.Instagram@883ce7]" name="TC1_postNews" duration-ms="208565" started-at="2018-07-02T22:24:32Z" finished-at="2018-07-02T22:28:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4726]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5659440a]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[com.instagram.android]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[com.instagram.mainactivity.MainActivity]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[totrung2018]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Latest post for function posting an artical........ -auto]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_postNews -->
+        <test-method status="PASS" signature="teadDown()[pri:0, instance:Instagram_demo.Instagram_demo.Instagram@883ce7]" name="teadDown" is-config="true" duration-ms="399" started-at="2018-07-02T22:28:00Z" finished-at="2018-07-02T22:28:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+        <test-method status="PASS" signature="TC1_LikeNews(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Instagram_demo.Instagram_demo.Instagram@883ce7]" name="TC1_LikeNews" duration-ms="195121" started-at="2018-07-02T22:28:01Z" finished-at="2018-07-02T22:31:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4726]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5659440a]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[com.instagram.android]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[com.instagram.mainactivity.MainActivity]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[totrung2018]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[trungtohieu1987]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[My keyboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_LikeNews -->
+        <test-method status="PASS" signature="teadDown()[pri:0, instance:Instagram_demo.Instagram_demo.Instagram@883ce7]" name="teadDown" is-config="true" duration-ms="352" started-at="2018-07-02T22:31:16Z" finished-at="2018-07-02T22:31:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- Instagram_demo.Instagram_demo.Instagram -->
+    </test> <!-- Instagram_demo_S6 -->
+  </suite> <!-- Automation -->
+</testng-results>
